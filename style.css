@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:wheat;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width: unset;
+    height: 100px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+nav{
+    flex: 1;
+    text-align:center;
+    background-color: transparent;
+
+    
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+h3{
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+/*--------search bar---------*/
+.search{
+    text-align: center;
+}
+.search-bar h1{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border: 1px;
+    background-color: transparent;
+}
+
+.search-bar input{
+    
+    padding: 5px;
+    border-radius: 20px;
+    /*background-color: transparent;          remove comment when searchbar in center*/
+
+}
+
+
+
+/*-----------testimonial----------*/
+
+.testimonial{
+    flex-basis: 30%;
+    padding-top: 100px;
+    display: inline-flexbox;
+
+}
+
+.testimonial .col-3{
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: transparent;
+}
+
+.testimonial .col-3 img{
+    width: 200px;
+    margin-top: 20px;
+
+    
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+
+}
+
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
