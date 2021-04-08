@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(255, 255, 255);
+}
+
+.heading{
+    text-align: center;
+    padding: 20px;
+    position: static;
+    background: linear-gradient(to right bottom, rgba(248, 248, 248, 0.7), rgb(0, 0, 0));
+    position: sticky;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.heading h1 {
+    background-color: transparent;
+    position: sticky;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width: unset;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 60px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+nav{
+    flex: 1;
+    text-align:center;
+    background-color:transparent;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 150px;
+    
+    border: groove black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    
+}
+h3{
+    background-color: transparent;
+    border-color: black;
+    border-radius: 10px;
+    height: 100%;
+
+}
+
+/*--------search bar---------*/
+#search{
+    align-items: center;
+    position: relative;
+    
+}
+#search-bar h1{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border: 1px;
+    background-color: transparent;
+}
+#search-bar{
+    text-align: center;
+}
+#search-bar input{
+    
+    padding: 5px;
+    border-radius: 20px;
+    /*background-color: transparent;          remove comment when searchbar in center*/
+
+}
+input {
+    background-color: white;
+    border-radius: 0.5;
+    font-size: 16px;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 30%;
+
+}
+
+
+
+/*-----------testimonial----------*/
+
+.testimonial{
+    flex-basis: 30%;
+    padding-top: 100px;
+    display: inline-flexbox;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.testimonial .col-3{
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px 40px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: transparent;
+}
+
+.testimonial .col-3 img{
+    width: 200px;
+    margin-top: 20px;
+    
+
+    
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+
+}
+
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+
+
+
+/*---------footer--------------*/
+
+
+.footer{
+    background:black;
+    color: gray;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.container{
+    background-color: transparent;
+}
+
+.footer p{
+    color: gray; 
+    background-color: transparent;  
+}
+.footer h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.ul{
+    list-style-type: none;
+    background-color: transparent;
+}
+
+
+.footer hr{
+    border: none;
+    background: gray;
+    height: 1px;
+    margin: 20px;
+}
+.copyright{
+    text-align: center;
+}
